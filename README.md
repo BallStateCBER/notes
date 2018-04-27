@@ -70,6 +70,7 @@ All websites need the following:
 ## JavaScript standards
  - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
  - Lint with [ESLint](http://eslint.org/)
+ - [jQuery](https://jquery.com/)
 
 ## Consideration for future standards
  - [Stickler CI](https://stickler-ci.com/)
