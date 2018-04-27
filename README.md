@@ -25,6 +25,7 @@ All websites need the following:
  - Store sensitive information (and information that changes based on environment) 
    in `.env` files that are not committed
  - Indent with four spaces
+ - Eliminate use of deprecated CakePHP 3.x code (so the transition to 4.x will be easier)
 
 ## HTML standards
  - [HTML5](https://www.w3.org/TR/html5/) 
