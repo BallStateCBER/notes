@@ -29,7 +29,7 @@ All websites need the following:
 ## HTML standards
  - [HTML5](https://www.w3.org/TR/html5/) 
  - Test with [W3C Markup Validation Service](https://validator.w3.org/)
- - Use hyphenated-class-names and element IDs instead of either underscored_names or camelCaps where possible
+ - Where possible, hyphenate class names and element IDs instead of using underscores or camelCaps
  - Indent with four spaces
 
 ## CTP (template) file standards
