@@ -73,3 +73,6 @@ All websites need the following:
 
 ## Consideration for future standards
  - [Stickler CI](https://stickler-ci.com/)
+ - [Webpack](https://webpack.js.org/)
+ - [React](https://reactjs.org/)
+ - [Babel](https://babeljs.io)
