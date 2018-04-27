@@ -15,7 +15,7 @@ All websites need the following:
 
 ## Frameworks
  - [CakePHP 3.x](https://book.cakephp.org/3.0/en/index.html)
- - [Bootstrap 3.x](https://getbootstrap.com/)
+ - [Bootstrap 4.x](https://getbootstrap.com/)
 
 ## PHP standards 
  - [CakePHP code sniffer standards](https://github.com/cakephp/cakephp-codesniffer)  
@@ -74,6 +74,5 @@ All websites need the following:
     (despite some HTML / CSS / PHP guides indenting with two spaces)
 
 ## Consideration for future standards
- - Bootstrap 4
  - [Sass](http://sass-lang.com/)
  - [Stickler CI](https://stickler-ci.com/)
