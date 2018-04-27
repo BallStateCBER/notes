@@ -23,12 +23,14 @@ All websites need the following:
  - Use camelCaps for variable names instead of underscored_names
  - Avoid prefixing method names with underscores
  - Store sensitive information (and information that changes based on environment) 
-   in `.env` files that are not committed 
+   in `.env` files that are not committed
+ - Indent with four spaces
 
 ## HTML standards
  - [HTML5](https://www.w3.org/TR/html5/) 
  - Test with [W3C Markup Validation Service](https://validator.w3.org/)
  - Use hyphenated-class-names and element IDs instead of either underscored_names or camelCaps where possible
+ - Indent with four spaces
 
 ## CTP (template) file standards
  - Use short echo tags when not in a multiple-line block of code, e.g.
@@ -68,10 +70,6 @@ All websites need the following:
 ## JavaScript standards
  - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
  - Lint with [ESLint](http://eslint.org/)
- 
-## Misc standards
- - All indentation is with four spaces  
-    (despite some HTML / CSS / PHP guides indenting with two spaces)
 
 ## Consideration for future standards
  - [Stickler CI](https://stickler-ci.com/)
