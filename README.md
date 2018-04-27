@@ -63,7 +63,7 @@ All websites need the following:
 ## CSS standards
  - [Google style guide](https://google.github.io/styleguide/htmlcssguide.html)  
  - Test with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
- - [LESS for preprocessing](http://lesscss.org)
+ - [Sass](http://sass-lang.com/) for preprocessing
 
 ## JavaScript standards
  - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
@@ -74,5 +74,4 @@ All websites need the following:
     (despite some HTML / CSS / PHP guides indenting with two spaces)
 
 ## Consideration for future standards
- - [Sass](http://sass-lang.com/)
  - [Stickler CI](https://stickler-ci.com/)
