@@ -78,3 +78,4 @@ All websites need the following:
  - [Webpack](https://webpack.js.org/)
  - [React](https://reactjs.org/)
  - [Babel](https://babeljs.io)
+ - [TypeScript](https://www.typescriptlang.org/)
