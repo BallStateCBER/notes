@@ -14,18 +14,18 @@ All websites need the following:
  - GitHub, Travis, and CodeClimate events in the `#webdev` channel of [cber.slack.com](https://cber.slack.com)
 
 ## Frameworks
- - [CakePHP 3.x](https://book.cakephp.org/3.0/en/index.html)
+ - [CakePHP 4.x](https://book.cakephp.org/4.0/en/index.html)
  - [Bootstrap 4.x](https://getbootstrap.com/)
 
 ## PHP standards 
- - [CakePHP code sniffer standards](https://github.com/cakephp/cakephp-codesniffer)  
+ - [CakePHP code sniffer standards](https://github.com/cakephp/cakephp-codesniffer) (extension of [PSR-12](https://www.php-fig.org/psr/psr-12/))  
  - Test with [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
  - Use camelCaps for variable names instead of underscored_names
  - Avoid prefixing method names with underscores
  - Store sensitive information (and information that changes based on environment) 
-   in `.env` files that are not committed
+   in `.env` or `config/app_local.php` files that are not committed
  - Indent with four spaces
- - Eliminate use of deprecated CakePHP 3.x code (so the transition to 4.x will be easier)
+ - Avoid using any deprecated code from libraries (so migrating to the next major version will be easier)
 
 ## HTML standards
  - [HTML5](https://www.w3.org/TR/html5/) 
@@ -33,16 +33,16 @@ All websites need the following:
  - Where possible, hyphenate class names and element IDs instead of using underscores or camelCaps
  - Indent with four spaces
 
-## CTP (template) file standards
+## Template file standards
  - Use short echo tags when not in a multiple-line block of code, e.g.
  
-   ```
+   ```html
     <a href="<?= $url ?>">
         <?= $label ?>
     </a>
    ```
    or
-   ```
+   ```html
     <a href="http://example.com">
         <?php
             $foo = getFoo();
@@ -69,9 +69,12 @@ All websites need the following:
  - [Sass](http://sass-lang.com/) for preprocessing
 
 ## JavaScript standards
- - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+ - [JavaScript Standard Style](https://standardjs.com/rules.html)
+ - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) for any matter not covered by the 
+   JavaScript Standard Style 
  - Lint with [ESLint](http://eslint.org/)
- - [jQuery](https://jquery.com/)
+ - Avoid the use of [jQuery](https://jquery.com/) except when implementing jQuery plugins that have no practical vanilla 
+   JS alternative
 
 ## Consideration for future standards
  - [Stickler CI](https://stickler-ci.com/)
