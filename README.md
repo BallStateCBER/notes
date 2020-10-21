@@ -63,7 +63,7 @@ All websites need the following:
    ```
    Some of these can be automatically added by [dereuromark/cakephp-ide-helper](https://github.com/dereuromark/cakephp-ide-helper/)
 
-## CSS standards
+## CSS (and preprocessor) standards
  - [Google style guide](https://google.github.io/styleguide/htmlcssguide.html)  
  - Test with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
  - [Sass](http://sass-lang.com/) for preprocessing
